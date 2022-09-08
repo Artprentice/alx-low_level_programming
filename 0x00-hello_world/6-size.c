@@ -22,10 +22,10 @@ int main(void)
 
 	float myFloat;
 
-	printf("Char size: %zu\n", sizeof(char));
-	printf("Int size: %zu\n", sizeof(int));
-	printf("Double size: %zu\n", sizeof(double));
-	printf("float size: %zu\n", sizeof(float));
+	printf("Size of a char: %zu\n", sizeof(char),"byte(s)");
+	printf("Size of an int: %zu\n", sizeof(int),"byte(s)");
+	printf("Size of a double: %zu\n", sizeof(double),"byte(s)");
+	printf("Size of a float: %zu\n", sizeof(float),"byte(s)");
 
 	return (0);
 }
