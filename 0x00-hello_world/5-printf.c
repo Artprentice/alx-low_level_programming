@@ -11,8 +11,6 @@ int main(void)
 	 * @string: String to be printed using printf
 	 * Return: 0
 	 */
-	char string[] = "with proper grammar, but the outcome is a piece of art,";
-
-	printf(string);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
