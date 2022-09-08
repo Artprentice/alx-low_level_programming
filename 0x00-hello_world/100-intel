@@ -1,3 +1,2 @@
 #!/bin/bash
 gcc -S $CFILE
-export CFILE=main.c
