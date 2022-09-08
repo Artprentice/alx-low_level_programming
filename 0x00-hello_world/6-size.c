@@ -22,10 +22,13 @@ int main(void)
 
 	float myFloat;
 
-	printf("Size of a char: %zu\n", sizeof(char),"byte(s)");
-	printf("Size of an int: %zu\n", sizeof(int),"byte(s)");
-	printf("Size of a double: %zu\n", sizeof(double),"byte(s)");
-	printf("Size of a float: %zu\n", sizeof(float),"byte(s)");
+	long myLong;
+
+	printf("Size of a char: %zu byte(s)\n", sizeof(char));
+	printf("Size of an int: %zu byte(s)\n", sizeof(int));
+	printf("Size of a long int: %zu bytes(s)", sizeof(long));
+	printf("Size of a long long int: %zu byte(s)\n",sizeof(double));
+	printf("Size of a float: %zu byte(s)\n", sizeof(float));
 
 	return (0);
 }
