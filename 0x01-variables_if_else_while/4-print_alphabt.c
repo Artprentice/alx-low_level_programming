@@ -13,6 +13,7 @@ int main(void)
 	 * return: 0
 	 */
 	char charr;
+
 	for (charr = 'a'; charr <= 'z'; charr++)
 	{
 		if (charr != 'e' && charr != 'q')
