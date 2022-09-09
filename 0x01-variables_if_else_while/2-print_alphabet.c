@@ -8,16 +8,16 @@
 int main(void)
 {
 	/**
-	 * while - loop
+	 * for - loop
 	 * @charr: variable
 	 * Return: always 0
 	 */
-	char charr = 'a';
+	char charr;
 	
-	while (charr <= 'z')
+	for (charr = 'a'; charr <= 'z'; charr++)
 	{
 		putchar(charr);
-		a++;
+		putchar('\n');
 	}
 	
 	return (0);
