@@ -16,7 +16,7 @@ int main(void)
 
 	char charr;
 
-	for (dig = 1; dig <= 9; dig++)
+	for (dig = 0; dig <= 9; dig++)
 		putchar((dig % 10) + '0');
 
 	for (charr = 'a'; charr <= 'f'; charr++)
