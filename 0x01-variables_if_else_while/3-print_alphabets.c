@@ -14,11 +14,11 @@ int main(void)
 	 */
 	char charr;
 
-	for (charr = 'a'; charr <='z'; charr++)
+	for (charr = 'a'; charr <= 'z'; charr++)
 	{
 		putchar(charr);
 	}
-        for (charr = 'A'; charr <='Z'; charr++)
+	for (charr = 'A'; charr <= 'Z'; charr++)
 	{
 		putchar(charr);
 	}
