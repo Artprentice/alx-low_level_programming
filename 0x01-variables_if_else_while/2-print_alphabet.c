@@ -12,9 +12,9 @@ int main(void)
 	 * @charr: variable
 	 * Return: always 0
 	 */
-	int charr = 'a';
+	char charr = 'a';
 	
-	while (char <= 'z')
+	while (charr <= 'z')
 	{
 		putchar(charr);
 		a++;
