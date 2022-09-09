@@ -14,7 +14,7 @@ int main(void)
 	int dig;
 	
 	for (dig = 0; dig <= 9; dig++)
-		putchar((dig % 10));
+		putchar((dig % 10) + '0');
 
 	putchar('\n');
 	return (0);
