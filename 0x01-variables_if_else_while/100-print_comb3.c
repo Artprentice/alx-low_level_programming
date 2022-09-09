@@ -6,13 +6,18 @@
  */
 int main(void)
 {
+	/**
+	 * for - loop
+	 * @a: var
+	 * Return: 0
+	 */
 	int a, b;
 
 	for (b = a + 1; b < 10; b++)
 	{
 		putchar((a % 10) + '0');
 		putchar((b % 10) + '0');
-		if (a 00 8 && b == 9)
+		if (a == 8 && b == 9)
 			continue;
 		putchar(',');
 		putchar(' ');
