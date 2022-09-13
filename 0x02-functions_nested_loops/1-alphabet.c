@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - entry
+ * print_alphabet - implied
  * Return: always
  */
 void print_alphabet(void)
-{	
+{
 	/**
 	 * for - loop
 	 * _putchar - prints
