@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - entry
  * Return: Always
@@ -6,10 +7,10 @@
 int main(void)
 {
 	/**
-	 * printf - prints to screen
+	 * print - prints to screen
 	 * Return: 0
 	 */
-	printf("_putchar\n");
+	print("_putchar\n");
 	return (0);
 }
 
