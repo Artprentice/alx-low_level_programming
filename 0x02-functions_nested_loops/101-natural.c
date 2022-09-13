@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - sum multiples of 3 and 5 below 1024 excluded
- * @Return: always
+ * Return: always
  */
 int main(void)
 {
