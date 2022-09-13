@@ -1,5 +1,4 @@
-int print(var)
+char print(var)
 {
-	printf(var);
-	return (0);
+	return printf(var);
 }
