@@ -1,9 +1,7 @@
 #include "main.h"
 /**
  * times_table - 9 times table
- * @num: param 
- * @mult: pparam
- * @prod: param
+ * @void: param
  * Return: always
  */
 void times_table(void)
@@ -23,7 +21,7 @@ void times_table(void)
 				_putchar(' ');
 			else
 				_putchar((prod / 10) + '0');
-
+				
 			_putchar((prod % 10) + '0');
 		}
 		_putchar('\n');
