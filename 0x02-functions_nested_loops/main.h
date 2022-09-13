@@ -1,4 +1,4 @@
-char print(var)
+int _putchar(char)
 {
-	return printf(var);
+	putchar(char);
 }

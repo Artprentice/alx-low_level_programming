@@ -10,7 +10,13 @@ int main(void)
 	 * print - prints to screen
 	 * Return: 0
 	 */
-	print("_putchar\n");
+	_putchar("_");
+	_putchar("p");
+	_putchar("u");
+	_putchar("t");
+	_putchar("c");
+	_putchar("a");
+	_putchar("r");
 	return (0);
 }
 
