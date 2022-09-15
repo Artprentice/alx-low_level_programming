@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_line - draw a line
+ * @n: var
  * Return: 0
  */
 void print_line(int n)
@@ -12,6 +13,5 @@ void print_line(int n)
 		for (i = 0; i < n; i++)
 			_putchar('_');
 	}
-
 	_putchar('\n');
 }
