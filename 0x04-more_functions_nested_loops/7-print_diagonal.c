@@ -1,6 +1,9 @@
 #include "main.h"
 /**
  * print_diagonal - draws a diagonal
+ * @n: var
+ * @i: var
+ * @gap: var
  * Return: 0
  */
 void print_diagonal(int n)
@@ -11,11 +14,11 @@ void print_diagonal(int n)
 	{
 		for (i = 0; i < n; i++)
 		{
-			for (bar = 0; bar < i; bar++)
+			for (gap = 0; gap < i; gap++)
 				_putchar(' ');
 			_putchar('\\');
 
-			if (gap == n - 1)
+			if (i == n - 1)
 				continue;
 			
 			_putchar('\n');
