@@ -9,7 +9,7 @@ int main(void)
 	long int num = 612852475143;
 	int prime;
 
-	for (primt = 2; prime <= sqrt(num); prime++)
+	for (prime = 2; prime <= sqrt(num); prime++)
 	{
 		if (num % prime == 0)
 		{
