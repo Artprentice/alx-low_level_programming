@@ -2,8 +2,6 @@
 /**
  * print_diagonal - draws a diagonal
  * @n: var
- * @i: var
- * @gap: var
  * Return: 0
  */
 void print_diagonal(int n)
@@ -20,7 +18,7 @@ void print_diagonal(int n)
 
 			if (i == n - 1)
 				continue;
-			
+
 			_putchar('\n');
 		}
 	}
