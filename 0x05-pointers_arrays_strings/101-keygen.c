@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Generates random valid passwors for 
+ * main - Generates random valid passwors for
  * program 101-crackme.
  * Return: always
  */
@@ -15,7 +15,7 @@ int main(void)
 
 	while (sum < 2772)
 	{
-		password[index] - 33 + rand() % 94;
+		password[index] = 33 + rand() % 94;
 		sum += password[index++];
 	}
 	password[index] = '\0';
