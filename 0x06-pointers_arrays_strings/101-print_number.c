@@ -2,9 +2,8 @@
 #include <stdio.h>
 /**
  * print_number - Print an integer using only _putchar
- * @n: integer to print
+ * @n: integer to be print
  */
-
 void print_number(int n)
 {
 	int power;

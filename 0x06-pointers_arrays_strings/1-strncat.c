@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strncat - concatenate two strings
+ * _strncat - concatenate 2 strings
  * @dest: string
  * @src: string
- * @n: number of elements to concatenate in
+ * @n: number of elements to concatenate
  * Return: pointer to resulting `dest`
  */
 
