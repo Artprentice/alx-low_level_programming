@@ -4,7 +4,6 @@
  * print_number - Print an integer using only _putchar
  * @n: integer to be print
  */
-
 void print_number(int n)
 {
 	int power;
