@@ -1,1 +1,1 @@
-abc1234
+ltrace crackme2
