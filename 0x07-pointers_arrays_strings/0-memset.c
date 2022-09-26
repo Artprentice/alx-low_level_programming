@@ -4,6 +4,7 @@
  * by s with const byte b
  * @*s: pointer
  * @b: char b
+ * @s: return
  * @n: n times to filled
  * Return: pointer in memory area @s
  */
