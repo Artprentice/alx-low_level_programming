@@ -22,7 +22,7 @@ int find_sqrt(int num, int root)
   * @n: digit
   * Return: sqr root of digit
   */
-int _sqr_recursion(int n)
+int _sqrt_recursion(int n)
 {
 	int root = 0;
 
@@ -31,7 +31,6 @@ int _sqr_recursion(int n)
 
 	if (n == 1)
 		return (1);
-		
 
 	return (find_sqrt(n, root));
 }
