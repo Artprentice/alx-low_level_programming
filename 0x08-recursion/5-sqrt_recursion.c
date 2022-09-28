@@ -8,22 +8,20 @@
  * @n: digit
  * Return: sqr root of digit
  */
-int root = 0;
-
 int _sqr_recursion(int n)
 {
+	int root = 0;
+
 	if (n < 0)
 		return (-1);
 	if (n == 0)
 		return (1);
-	else
-	{
+
 		if ((root * root) == n)
 			return (root);
 		if (root == n / 2)
-			return(-1);
-		else
+			return (-1);
+
 			root++;
-	}
 	return (_sqr_recursion(n));
 }
