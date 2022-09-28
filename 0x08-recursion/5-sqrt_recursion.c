@@ -4,9 +4,6 @@
  * @num: the number to be sqrted
  * @root: the sqr root of num
  * Return: the root to be tested
- * _sqrt_recursion - returns natural sqr root of digit
- * @n: digit
- * Return: sqr root of digit
  */
 int find_sqrt(int num, int root);
 
@@ -20,6 +17,11 @@ int find_sqrt(int num, int root)
 
 	return (find_sqrt(num, root + 1));
 }
+ /**
+  * _sqrt_recursion - returns natural sqr root of digit
+  * @n: digit
+  * Return: sqr root of digit
+  */
 int _sqr_recursion(int n)
 {
 	int root = 0;
