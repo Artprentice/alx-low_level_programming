@@ -8,20 +8,23 @@
  */
 int main(int argc, char *argv[])
 {
-	int sum;
+	int i, j, sum = 0;
 
-	if (argv[1] < '0' || argv[1] > '9')
+	for (i = 1; i < argc; i++)
 	{
-		printf("Error\n");
-		return (1);
+		for (j = 0; argv[i][j]; j++)
+		{
+			if (argv[i][j] < '0' || argv[i][j] > '9')
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+
+		sum += atoi(argv[i]);
 	}
-	else if (argv[2] < '0' || argv[2] > '9')
-	{
-		printf("Error\n");
-		return (1);
-	}
-	sum = argv[1] + argv[2];
 
 	printf("%d\n", sum);
+
 	return (0);
 }
