@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * mian - prints multiplication of two numbers
+ * main - prints multiplication of two numbers
  * @argc: number of arguments
  * @argv: pointer arry to the arguments
- * return: if program recieves two args 0
- * 	else 1
+ * Return: if program recieves two args 0
+ *	else 1
  */
 int main(int argc, char *argv[])
 {

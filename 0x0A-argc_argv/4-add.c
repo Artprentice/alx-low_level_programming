@@ -4,7 +4,7 @@
  * main - prints the sum of possitive numbers
  * @argc: number of arguments
  * @argv: pointer arry to arguments strings
- * return: if error 1 else 0
+ * Return: if error 1 else 0
  */
 int main(int argc, char *argv[])
 {
