@@ -5,7 +5,7 @@
  * of money
  * @argc: number of command line arguments.
  * @argv: pointer array to arguments
- * Return: 0 - success
+ * Return: 0 = success
  */
 int main(int argc, char *argv[])
 {
