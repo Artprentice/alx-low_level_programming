@@ -1,1 +1,2 @@
-whatever. this sucks
+creates libmy.a
+creates liball.a
