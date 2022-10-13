@@ -2,15 +2,13 @@
 #define VARIADIC_FUNCTIONS_H
 /**
  * file: variadic_functions.h
- * Desc: Header file containing prototypes to
- * 	 all the functions used in 0x10-variadic_functions.
+ * Desc: Header file containing prototypes to all the functions used in 0x10-variadic_functions.
  */
 #include <stdarg.h>
 /**
  * struct printer - A struct type defining a printer
  * @symbol: Represents a data type
- * @print: A function pointer to a function that prints
- * 	   a data type relating to symbol
+ * @print: A function pointer to a function that prints a data type relating to symbol
  */
 typedef struct printer
 {
