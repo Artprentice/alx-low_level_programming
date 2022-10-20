@@ -4,7 +4,6 @@
 /**
  * print_list - function that prints all
  *	the elements of a list_t list.
- * @list_t: data structure node
  * @h: pointer to the next node
  * Return: the number of nodes
  *
