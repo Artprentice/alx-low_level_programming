@@ -2,7 +2,7 @@
 #include "lists.h"
 /**
  * add_node - adds a new node at the beginning
- * 	of a list_t list.
+ *	of a list_t list.
  * @head: pointer to the head of the list_t list
  * @str: the string to be added to the list_t list
  * Return: If failed - NULL, otherwise - address of new
@@ -22,7 +22,7 @@ list_t *add_node(list_t **head, const char *str)
 	if (dup_str == NULL)
 	{
 		free(new);
-		return (NULL):
+		return (NULL);
 	}
 
 	for (len = 0; str[len];)
