@@ -4,7 +4,6 @@
 /**
  * list_len - returns the number of elements in
  *	a linked list_t list
- * @list_t: singly linked list node structure
  * @h: pointer to the next list node strucure
  * Return: number of elements in list
  *
