@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include "lists.h"
 /**
- * size_t print_list - function that prints all
+ * print_list - function that prints all
  *	the elements of a list_t list.
  * @list_t: data structure node
- * @*h: pointer to the next node
+ * @h: pointer to the next node
  * Return: the number of nodes
  *
  * Description: prints the elements of list_t and returns
